@@ -358,7 +358,7 @@ class CalcController{
     }
 
     set displayDate(value){
-       this._dateEl.innerHTML = value;
+        this._dateEl.innerHTML = value;
     }
 
     
@@ -367,6 +367,10 @@ class CalcController{
     }
 
     set displayCalc(value){
+        if(value.toString().length > 10){
+            this.setError();
+            return false;
+        }
         this._displayCalcEl.innerHTML = value;
     }
 
