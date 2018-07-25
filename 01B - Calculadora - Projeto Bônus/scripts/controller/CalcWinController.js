@@ -1,5 +1,5 @@
 //Finalizado :)
-class CalcController{
+class CalcWinController{
   //Dentro da Classe: Variáveis / Funções = Atributos / Métodos + Recursos
   //Objeto - Representa uma classe - Ex.:Professor
   //BOM = Browser Object Model - Navegador
