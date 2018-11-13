@@ -6,11 +6,11 @@ var nome = document.querySelector("#exampleInputName");
 //console.log(nome);
 //nome.value = "Gian";
 //nome.style.color = "blue";
-var generoM = document.querySelector("#exampleInputGenderM");
-var generoF = document.querySelector("#exampleInputGenderF");
+//Pega todos, mas retorna apenas os selecionados
+var genero = document.querySelectorAll("#form-user-create [name=gender]:checked");
 var dataNasc = document.querySelector("#exampleInputBirth");
 var pais = document.querySelector("#exampleInputCountry");
-var email = document.querySelector("#exampleInputEmail1");
-var senha = document.querySelector("#exampleInputPassword1");
+var email = document.querySelector("#exampleInputEmail");
+var senha = document.querySelector("#exampleInputPassword");
 var foto = document.querySelector("#exampleInputFile");
-var adm = document.querySelector(".admin");
+var adm = document.querySelector("#exampleInputAdmin");

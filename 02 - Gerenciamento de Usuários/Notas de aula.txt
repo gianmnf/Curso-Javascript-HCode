@@ -10,3 +10,8 @@ document.querySelector("#exampleInputName").value
 
 --- Aula G3 ---
 Váriavel - Espaço em memória
+
+--- Aula G4 ---
+Variável - Não usar caracteres especiais, exceto _ ou $(evitar - jquery)
+Não podem ter números
+minúscula, composta = primeira palavra começa com minuscula, depois começa com maiúsculas - camelCase
