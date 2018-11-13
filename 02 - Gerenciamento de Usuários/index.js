@@ -14,3 +14,13 @@ var email = document.querySelector("#exampleInputEmail");
 var senha = document.querySelector("#exampleInputPassword");
 var foto = document.querySelector("#exampleInputFile");
 var adm = document.querySelector("#exampleInputAdmin");
+
+var fields = document.querySelectorAll("#form-user-create [name]");
+// Função - trecho de código que define ou retorna algo
+// function(){ enter 3 vezes}
+// Array começa em 0 - index
+fields.forEach(function(field, index){
+
+    console.log(field.id, field.name, field.checked, index);
+    
+});
