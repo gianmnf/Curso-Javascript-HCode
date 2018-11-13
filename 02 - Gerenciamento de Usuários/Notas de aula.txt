@@ -1,0 +1,8 @@
+Método - Ação que será executada - sempre com ()
+document.querySelector()
+Seletor = seletor css3
+document.querySelector("#exampleInputName")
+Atributo = Armazena valor, criado com o =
+document.querySelector("#exampleInputName").value = "Oi"
+Pegando valor
+document.querySelector("#exampleInputName").value
